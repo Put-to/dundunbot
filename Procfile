@@ -1,1 +1,1 @@
-worker: python dundunbot/bot.py
+worker: python bot.py
