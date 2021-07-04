@@ -10,7 +10,7 @@ from discord.ext import tasks, commands
 bot = commands.Bot(command_prefix='?', intents=discord.Intents.all())
 bot.remove_command('help')
 
-if not os.path.isfile("config2.json"): #Replace with config.json
+if not os.path.isfile("config.json"): #Replace with config.json
     print("Config file not found")
     exit()
 else :
